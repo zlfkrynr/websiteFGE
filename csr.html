@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>CSR</title>
+</head>
+<body>
+ 
+    <!-- Ini Judul -->
+    <h1>CSR (Corporate Social Responsibility) </h1>
+ 
+    <!-- Ini Gallery -->
+    <center><div class="gallery_container_parent">
+        <div class="gallery_container">
+            <figure class="gallery_item item_1" onclick="openmodal();currentslide(1)">
+                <img src="img\jembatan - Copy.png" alt="jembatan_image">
+                <figcaption class="caption">Perbaikan Jembatan Penghubung antar Desa<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+            <figure class="gallery_item item_2" onclick="openmodal();currentslide(2)">
+                <img src="img\21.png" alt="beem_image">
+                <figcaption class="caption">Donasi Masker Kesehatan<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+            <figure class="gallery_item item_4" onclick="openmodal();currentslide(4)">
+                <img src="img\20.png" alt="cutting_image">
+                <figcaption class="caption">Pemotongan hewan qurban untuk warga sekitar Perusahaan<br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+     
+        </div>
+    </div>
+    
+    <!-- Ini Lightbox  -->
+    <div class="lightbox_container">
+        <i class="fas fa-times" id="close"></i>
+        <div class="parent_navigation">
+            <span class="prev" id="ripple">&#10094;</span>
+            <span class="next" id="ripple">&#10095;</span>
+        </div>
+ 
+        <figure class="lightbox_item">
+            <img src="img\jembatan - Copy.png" alt="bending_image">
+            <figcaption class="caption_lightbox">Sukamakmur-Bogor, - Direktur Utama PT. Faco Global Engineering Bapak H. Munarky yang kerap disapa Kiki menegaskan untuk ikut serta dalam pembangunan infrastruktur desa, salah satunya memperbaiki jembatan penghubung di desa sukamakmur, sebelumnya jembatan tersbut hanya dibangun diatas untaian bambu yang sempit hingga harus bergantian pada saat melintas, sekararang sudah dibangun jembatan dengan rangkaian baja yang lebih kuat dari sebelumnya dengan kerja sama antara warga desa dan tim PT. Faco Global Engineering.- Kp Tenjo Laut dan Kp. Gn. Sangar, Sukamakmur - Kab. Bogor/ 09-2020</figcaption>
+        </figure>
+ 
+        <figure class="lightbox_item">
+            <img src="img\21.png" alt="beem_image">
+            <figcaption class="caption_lightbox">Pemberian Donasi Masker dalam pancemi Covid-19 kepada RSUD Cibinong</figcaption>
+        </figure>
+ 
+        <figure class="lightbox_item">
+            <img src="img\20.png" alt="cutting_image">
+            <figcaption class="caption_lightbox">Bantarjati- Bogor, PT. Faco Global Engineering secara rutin melakukan pemotongan hewan Qurban dan dibagikan kepada warga sekitar pabrik, diharapkan hal ini dapat menjaga hubungan baik dalam bermasyarakat dan berkah bagi semua elemen lingkungan PT. Faco Global Engineering. Bantarjati, Klapanunggal Bogor/07-2021.</figcaption>
+        </figure>
+ 
+    </div>
+    </center>
+    <center><a href="index.html" class="btn">Back</a></center> 
+    <!-- script javascript -->
+    <script src="script2.js"></script>
+</body>
+</html>
